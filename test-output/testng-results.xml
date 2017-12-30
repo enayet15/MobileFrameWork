@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="10" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MobileFrameWork" duration-ms="118918" started-at="2017-12-21T02:18:07Z" finished-at="2017-12-21T02:20:06Z">
+    <groups>
+    </groups>
+    <test name="Mobile Automation Suite" duration-ms="118918" started-at="2017-12-21T02:18:07Z" finished-at="2017-12-21T02:20:06Z">
+      <class name="com.mobile.framework.testCases.TestServiceAndSolutionsPage">
+        <test-method status="PASS" signature="baseMethod()[pri:0, instance:com.mobile.framework.testCases.TestServiceAndSolutionsPage@c81cdd1]" name="baseMethod" is-config="true" duration-ms="17856" started-at="2017-12-20T21:18:28Z" finished-at="2017-12-20T21:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseMethod -->
+        <test-method status="PASS" signature="testVerifyserviceAndSolutionsPage()[pri:0, instance:com.mobile.framework.testCases.TestServiceAndSolutionsPage@c81cdd1]" name="testVerifyserviceAndSolutionsPage" duration-ms="7269" started-at="2017-12-20T21:18:46Z" finished-at="2017-12-20T21:18:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyserviceAndSolutionsPage -->
+        <test-method status="PASS" signature="stopAppiumServer()[pri:0, instance:com.mobile.framework.testCases.TestServiceAndSolutionsPage@c81cdd1]" name="stopAppiumServer" is-config="true" duration-ms="252" started-at="2017-12-20T21:18:53Z" finished-at="2017-12-20T21:18:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopAppiumServer -->
+      </class> <!-- com.mobile.framework.testCases.TestServiceAndSolutionsPage -->
+      <class name="com.mobile.framework.testCases.TestCase_HomePage">
+        <test-method status="PASS" signature="csvConfiguration()[pri:0, instance:com.mobile.framework.testCases.TestCase_HomePage@43738a82]" name="csvConfiguration" is-config="true" duration-ms="35" started-at="2017-12-20T21:18:07Z" finished-at="2017-12-20T21:18:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- csvConfiguration -->
+        <test-method status="PASS" signature="baseMethod()[pri:0, instance:com.mobile.framework.testCases.TestCase_HomePage@43738a82]" name="baseMethod" is-config="true" duration-ms="18183" started-at="2017-12-20T21:18:07Z" finished-at="2017-12-20T21:18:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseMethod -->
+        <test-method status="PASS" signature="testVerifyHomePage1()[pri:0, instance:com.mobile.framework.testCases.TestCase_HomePage@43738a82]" name="testVerifyHomePage1" duration-ms="2733" started-at="2017-12-20T21:18:25Z" finished-at="2017-12-20T21:18:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyHomePage1 -->
+        <test-method status="PASS" signature="stopAppiumServer()[pri:0, instance:com.mobile.framework.testCases.TestCase_HomePage@43738a82]" name="stopAppiumServer" is-config="true" duration-ms="253" started-at="2017-12-20T21:18:28Z" finished-at="2017-12-20T21:18:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopAppiumServer -->
+        <test-method status="PASS" signature="closeConfiguration()[pri:0, instance:com.mobile.framework.testCases.TestCase_HomePage@43738a82]" name="closeConfiguration" is-config="true" duration-ms="4" started-at="2017-12-20T21:20:06Z" finished-at="2017-12-20T21:20:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeConfiguration -->
+      </class> <!-- com.mobile.framework.testCases.TestCase_HomePage -->
+      <class name="com.mobile.framework.testCases.TestCase_TrainingPage">
+        <test-method status="PASS" signature="baseMethod()[pri:0, instance:com.mobile.framework.testCases.TestCase_TrainingPage@1fc2b765]" name="baseMethod" is-config="true" duration-ms="20442" started-at="2017-12-20T21:18:53Z" finished-at="2017-12-20T21:19:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseMethod -->
+        <test-method status="PASS" signature="testVerifyTrainingPage()[pri:0, instance:com.mobile.framework.testCases.TestCase_TrainingPage@1fc2b765]" name="testVerifyTrainingPage" duration-ms="11720" started-at="2017-12-20T21:19:14Z" finished-at="2017-12-20T21:19:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyTrainingPage -->
+        <test-method status="PASS" signature="stopAppiumServer()[pri:0, instance:com.mobile.framework.testCases.TestCase_TrainingPage@1fc2b765]" name="stopAppiumServer" is-config="true" duration-ms="202" started-at="2017-12-20T21:19:26Z" finished-at="2017-12-20T21:19:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopAppiumServer -->
+      </class> <!-- com.mobile.framework.testCases.TestCase_TrainingPage -->
+      <class name="com.mobile.framework.testCases.TestSearchPage">
+        <test-method status="PASS" signature="baseMethod()[pri:0, instance:com.mobile.framework.testCases.TestSearchPage@75881071]" name="baseMethod" is-config="true" duration-ms="24554" started-at="2017-12-20T21:19:26Z" finished-at="2017-12-20T21:19:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseMethod -->
+        <test-method status="PASS" signature="testCaseSearch()[pri:0, instance:com.mobile.framework.testCases.TestSearchPage@75881071]" name="testCaseSearch" duration-ms="15169" started-at="2017-12-20T21:19:50Z" finished-at="2017-12-20T21:20:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseSearch -->
+        <test-method status="PASS" signature="stopAppiumServer()[pri:0, instance:com.mobile.framework.testCases.TestSearchPage@75881071]" name="stopAppiumServer" is-config="true" duration-ms="253" started-at="2017-12-20T21:20:06Z" finished-at="2017-12-20T21:20:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopAppiumServer -->
+      </class> <!-- com.mobile.framework.testCases.TestSearchPage -->
+    </test> <!-- Mobile Automation Suite -->
+  </suite> <!-- MobileFrameWork -->
+</testng-results>

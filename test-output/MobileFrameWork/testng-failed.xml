@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [MobileFrameWork]">
+  <test name="Mobile Automation Suite(failed)">
+    <classes>
+      <class name="com.mobile.framework.testCases.TestCase_TrainingPage">
+        <methods>
+          <include name="testVerifyTrainingPage"/>
+          <include name="closeConfiguration"/>
+          <include name="stopAppiumServer"/>
+          <include name="csvConfiguration"/>
+          <include name="baseMethod"/>
+        </methods>
+      </class> <!-- com.mobile.framework.testCases.TestCase_TrainingPage -->
+      <class name="com.mobile.framework.testCases.TestSearchPage">
+        <methods>
+          <include name="closeConfiguration"/>
+          <include name="stopAppiumServer"/>
+          <include name="csvConfiguration"/>
+          <include name="testCaseSearch"/>
+          <include name="baseMethod"/>
+        </methods>
+      </class> <!-- com.mobile.framework.testCases.TestSearchPage -->
+      <class name="com.mobile.framework.testCases.TestCase_HomePage">
+        <methods>
+          <include name="closeConfiguration"/>
+          <include name="stopAppiumServer"/>
+          <include name="csvConfiguration"/>
+          <include name="testVerifyHomePage1"/>
+          <include name="baseMethod"/>
+        </methods>
+      </class> <!-- com.mobile.framework.testCases.TestCase_HomePage -->
+      <class name="com.mobile.framework.testCases.TestServiceAndSolutionsPage">
+        <methods>
+          <include name="testVerifyserviceAndSolutionsPage"/>
+          <include name="closeConfiguration"/>
+          <include name="stopAppiumServer"/>
+          <include name="csvConfiguration"/>
+          <include name="baseMethod"/>
+        </methods>
+      </class> <!-- com.mobile.framework.testCases.TestServiceAndSolutionsPage -->
+    </classes>
+  </test> <!-- Mobile Automation Suite(failed) -->
+</suite> <!-- Failed suite [MobileFrameWork] -->

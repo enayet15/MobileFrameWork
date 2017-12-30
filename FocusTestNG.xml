@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Sample TestNG Link: http://www.seleniumeasy.com/testng-tutorials/testngxml-example-to-execute-with-class-names -->
+<suite name="MobileFrameWork" verbose="1" >
+  <test name="Mobile Automation Suite" >
+    <classes>
+      <class name="com.mobile.focus.testCase.FocusLogin_TestCase"/>
+      <!-- <class name="com.mobile.framework.testCases.TestServiceAndSolutionsPage"/> -->
+      
+    </classes>
+ </test>
+</suite>
